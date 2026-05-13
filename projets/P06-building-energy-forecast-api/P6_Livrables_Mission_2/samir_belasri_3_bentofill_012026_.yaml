@@ -1,0 +1,18 @@
+service: "service:SeattleEnergyAPI"
+labels:
+  project: "p6-mission2"
+  author: "samirbelasri"
+include:
+  - "service.py"
+  - "save_model.py"
+  - "test_request.py"
+python:
+  packages:
+    - bentoml==1.4.35
+    - scikit-learn
+    - pandas
+    - numpy
+    - pydantic
+    - joblib
+    - requests
+

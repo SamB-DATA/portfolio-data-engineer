@@ -1,0 +1,102 @@
+id: bottleneck_pipeline
+namespace: tutorial
+
+tasks:
+  - id: run_pipeline
+    type: io.kestra.plugin.scripts.python.Script
+    containerImage: python:3.11
+    namespaceFiles:
+      enabled: true
+    warningOnStdErr: false
+    outputFiles:
+      - rapport_chiffre_affaires.xlsx
+      - vins_premium.csv
+      - vins_ordinaires.csv
+    beforeCommands:
+      - pip install pandas openpyxl xlsxwriter
+    script: |
+      import pandas as pd
+      import os
+      import math
+
+      print("=== FILES ===")
+      print(os.listdir("."))
+
+      erp = pd.read_excel("erp.xlsx")
+      liaison = pd.read_excel("liaison.xlsx")
+      web = pd.read_excel("web.xlsx")
+
+      print("ERP:", erp.shape)
+      print("LIAISON:", liaison.shape)
+      print("WEB:", web.shape)
+
+      # Normalisation colonnes
+      erp.columns = erp.columns.str.lower()
+      liaison.columns = liaison.columns.str.lower()
+      web.columns = web.columns.str.lower()
+
+      # ERP
+      erp = erp.drop_duplicates().copy()
+      erp["product_id"] = erp["product_id"].astype(str)
+      erp["price"] = pd.to_numeric(erp["price"], errors="coerce").fillna(0)
+      erp.loc[erp["price"] < 0, "price"] = 0
+      erp["onsale_web"] = pd.to_numeric(erp["onsale_web"], errors="coerce").fillna(0).astype(int)
+
+      # Filtre métier clé
+      erp = erp[erp["onsale_web"] == 1].copy()
+
+      # Liaison
+      liaison = liaison.drop_duplicates().copy()
+      liaison = liaison.dropna(subset=["id_web"]).copy()
+      liaison["product_id"] = liaison["product_id"].astype(str)
+      liaison["id_web"] = liaison["id_web"].astype(str)
+
+      # Web
+      web = web.drop_duplicates().copy()
+      web = web[web["post_type"] == "product"].copy()
+      web["sku"] = web["sku"].astype(str)
+      web["total_sales"] = pd.to_numeric(web["total_sales"], errors="coerce").fillna(0)
+
+      # Merge
+      merged = erp.merge(liaison, on="product_id", how="inner")
+      merged = merged.merge(web, left_on="id_web", right_on="sku", how="inner")
+
+      # Déduplication métier
+      merged = merged.drop_duplicates(subset=["product_id"]).copy()
+
+      print("MERGED:", merged.shape)
+
+      # CA
+      merged["chiffre_affaires"] = (merged["price"] * merged["total_sales"]).round(2)
+      ca_total = round(merged["chiffre_affaires"].sum(), 1)
+
+      # Premium via z-score
+      mean_price = merged["price"].mean()
+      std_price = merged["price"].std()
+      merged["z_score"] = (merged["price"] - mean_price) / std_price
+
+      premium_df = merged[merged["z_score"] > 2].copy()
+      ordinary_df = merged[merged["z_score"] <= 2].copy()
+
+      premium = premium_df.shape[0]
+      ordinary = ordinary_df.shape[0]
+
+      print("CA TOTAL:", ca_total)
+      print("PREMIUM:", premium)
+      print("ORDINARY:", ordinary)
+
+      # Contrôles attendus
+      assert merged.shape[0] == 714, f"Erreur merged: {merged.shape[0]}"
+      assert math.isclose(ca_total, 70568.6, rel_tol=0, abs_tol=0.1), f"Erreur CA: {ca_total}"
+      assert premium == 30, f"Erreur premium: {premium}"
+      assert ordinary == 684, f"Erreur ordinary: {ordinary}"
+
+      # Exports
+      merged[["product_id", "post_title", "price", "total_sales", "chiffre_affaires"]].to_excel(
+          "rapport_chiffre_affaires.xlsx",
+          index=False
+      )
+      premium_df.to_csv("vins_premium.csv", index=False)
+      ordinary_df.to_csv("vins_ordinaires.csv", index=False)
+
+      print("=== TOUS LES TESTS SONT VALIDES ===")

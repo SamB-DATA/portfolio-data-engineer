@@ -1,0 +1,55 @@
+services:
+  redpanda:
+    image: docker.redpanda.com/redpandadata/redpanda:v24.1.8
+    container_name: redpanda
+    command:
+      - redpanda
+      - start
+      - --overprovisioned
+      - --smp
+      - "1"
+      - --memory
+      - "1G"
+      - --reserve-memory
+      - "0M"
+      - --node-id
+      - "0"
+      - --check=false
+      - --kafka-addr
+      - PLAINTEXT://0.0.0.0:9092
+      - --advertise-kafka-addr
+      - PLAINTEXT://redpanda:9092
+      - --pandaproxy-addr
+      - 0.0.0.0:8082
+      - --advertise-pandaproxy-addr
+      - redpanda:8082
+      - --rpc-addr
+      - 0.0.0.0:33145
+      - --advertise-rpc-addr
+      - redpanda:33145
+    ports:
+      - "9092:9092"
+      - "8082:8082"
+    volumes:
+      - redpanda_data:/var/lib/redpanda/data
+
+  producer:
+    build:
+      context: ./producer
+    container_name: ticket_producer
+    depends_on:
+      - redpanda
+    restart: unless-stopped
+
+  consumer:
+    build:
+      context: ./consumer
+    container_name: ticket_consumer
+    depends_on:
+      - redpanda
+    restart: unless-stopped
+    volumes:
+      - ./output:/app/output
+
+volumes:
+  redpanda_data:

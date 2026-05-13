@@ -1,0 +1,32 @@
+Projet BottleNeck - Livrable 3 - Tests du pipeline
+
+Objectif :
+Valider la qualité et la cohérence des données après transformation.
+
+Tests implémentés dans le workflow Kestra :
+
+1. Absence de doublons
+- Suppression via drop_duplicates() sur ERP, liaison et web
+
+2. Absence de valeurs manquantes critiques
+- Suppression des lignes sans id_web dans liaison
+- Conversion des valeurs numériques avec gestion des erreurs
+
+3. Cohérence des jointures
+- Vérification du nombre de lignes après fusion
+- Résultat attendu : 714 lignes
+
+4. Cohérence du chiffre d’affaires
+- Calcul : price * total_sales
+- Résultat attendu : 70568.6
+
+5. Cohérence de la classification Z-score
+- Premium : z_score > 2 → attendu : 30
+- Ordinary : z_score <= 2 → attendu : 684
+
+6. Validation finale
+- Utilisation d’assertions Python dans le workflow
+- Arrêt automatique du pipeline en cas d’erreur
+
+Conclusion :
+Le pipeline garantit la qualité des données et la fiabilité des résultats avant export.
