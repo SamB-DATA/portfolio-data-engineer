@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "Je cherche une exposition artistique",
+    "expected_answer": "Le système doit recommander au moins une exposition artistique en indiquant le titre, la date, le lieu et la ville."
+  },
+  {
+    "id": 2,
+    "question": "Je veux une conférence scientifique",
+    "expected_answer": "Le système doit recommander au moins une conférence scientifique pertinente avec son titre, sa date et son lieu."
+  },
+  {
+    "id": 3,
+    "question": "Je cherche un événement autour de l’intelligence artificielle",
+    "expected_answer": "Le système doit retrouver un ou plusieurs événements liés à l’intelligence artificielle et donner les informations principales."
+  },
+  {
+    "id": 4,
+    "question": "Je veux une activité en lien avec l’art et la science",
+    "expected_answer": "Le système doit proposer un événement croisant l’art et la science à partir du contexte disponible."
+  },
+  {
+    "id": 5,
+    "question": "Je cherche une conférence sur le patrimoine ou la conservation",
+    "expected_answer": "Le système doit retrouver une conférence liée au patrimoine, à la conservation ou à l’étude d’œuvres."
+  },
+  {
+    "id": 6,
+    "question": "Je voudrais assister à un événement quantique ou de recherche scientifique",
+    "expected_answer": "Le système doit proposer un événement lié à l’optique quantique ou à la recherche scientifique."
+  },
+  {
+    "id": 7,
+    "question": "Je cherche une sortie culturelle à Gif-sur-Yvette",
+    "expected_answer": "Le système doit proposer un événement cohérent situé à Gif-sur-Yvette si disponible dans les documents."
+  },
+  {
+    "id": 8,
+    "question": "Je veux voir un événement organisé à Palaiseau",
+    "expected_answer": "Le système doit recommander un événement situé à Palaiseau si l’information est présente dans la base."
+  },
+  {
+    "id": 9,
+    "question": "Je cherche un concert ou une soirée musicale",
+    "expected_answer": "Le système doit proposer un événement musical ou indiquer clairement s’il ne trouve pas d’information suffisante."
+  },
+  {
+    "id": 10,
+    "question": "Je veux un événement lié au cinéma ou aux arts visuels",
+    "expected_answer": "Le système doit retrouver un événement cohérent lié au cinéma, au matte painting ou aux arts visuels."
+  },
+  {
+    "id": 11,
+    "question": "Je cherche une conférence aujourd’hui",
+    "expected_answer": "Le système doit proposer une conférence si la date est compatible avec le contexte récupéré, sinon signaler l’absence d’information certaine."
+  },
+  {
+    "id": 12,
+    "question": "Je veux une recommandation d’événement culturel avec date et lieu",
+    "expected_answer": "Le système doit répondre de manière structurée avec au minimum un titre, une date, un lieu et une ville."
+  }
+]

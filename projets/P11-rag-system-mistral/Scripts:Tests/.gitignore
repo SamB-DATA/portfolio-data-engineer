@@ -1,0 +1,18 @@
+# environnement
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# data lourde / temporaire
+data/raw/
+data/vectorstore/
+
+# garder les données propres (important pour la démo)
+# data/processed/  ← on NE l’ignore PAS
+
+# logs / OS
+.DS_Store
+
+data/processed/*
+!data/processed/sample_events.csv

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "Je cherche une exposition artistique",
+    "expected_answer": "Le système doit recommander au moins une exposition artistique en indiquant le titre, la date, le lieu et la ville.",
+    "generated_answer": "**Exposition artistique recommandée :**\n\n- **Titre :** L'art du Matte Painting\n- **Date :** 26 mars 2026 (11h-13h)\n- **Lieu :** Galerie Cesária Évora, Université d'Évry\n- **Ville :** Évry-Courcouronnes\n- **Adresse :** 23 boulevard François Mitterand"
+  },
+  {
+    "id": 2,
+    "question": "Je veux une conférence scientifique",
+    "expected_answer": "Le système doit recommander au moins une conférence scientifique pertinente avec son titre, sa date et son lieu.",
+    "generated_answer": "**Conférence scientifique recommandée :**\n\n- **Titre :** *Science à la coque : \"Quand la science éclaire l’art : le rôle du synchrotron dans l’étude du patrimoine\"*\n- **Date :** 16 avril 2026\n- **Heure :** 10h30 - 11h00\n- **Lieu :** Auditorium, Bâtiment Lumen\n- **Adresse :** 8 avenue des Sciences, Gif-sur-Yvette\n- **Ville :** Gif-sur-Yvette\n- **Intervenante :** Julie Gordon (musée du quai Branly – Jacques Chirac)\n- **Thème :** Synchrotron et étude du patrimoine culturel"
+  },
+  {
+    "id": 3,
+    "question": "Je cherche un événement autour de l’intelligence artificielle",
+    "expected_answer": "Le système doit retrouver un ou plusieurs événements liés à l’intelligence artificielle et donner les informations principales.",
+    "generated_answer": "Voici les événements autour de l’intelligence artificielle :\n\n1. **Exposition Intelligence Artificielle au Lumen**\n   - **Date** : 20 avril 2026 (06:30 - 20:30)\n   - **Lieu** : Lumen - Hall d'exposition\n   - **Ville** : Gif-sur-Yvette\n   - **Adresse** : 8 avenue des sciences\n\n2. **AI in Oncology Paris**\n   - **Date** : 22 juin 2026 (07:00 - 15:30)\n   - **Lieu** : Novotel tour eiffel\n   - **Ville** : Paris\n   - **Adresse** : 61 Quai de Grenelle, 75015 Paris\n\n3. **Journée \"IA et enseignement des langues\"**\n   - **Date** : 21 mai 2026 (07:30 - 15:30)\n   - **Lieu** : Centre de Langues - Université Paris-Saclay\n   - **Ville** : Gif-sur-Yvette\n   - **Adresse** : 8 rue Joliot Curie, 91190 Gif-sur-Yvette"
+  },
+  {
+    "id": 4,
+    "question": "Je veux une activité en lien avec l’art et la science",
+    "expected_answer": "Le système doit proposer un événement croisant l’art et la science à partir du contexte disponible.",
+    "generated_answer": "**Activités en lien avec l’art et la science :**\n\n1. **Science à la coque : \"Quand la science éclaire l’art : le rôle du synchrotron dans l’étude du patrimoine\"**\n   - **Date** : 16 avril 2026, 10h30–11h00\n   - **Lieu** : Auditorium, Bâtiment Lumen, 8 avenue des Sciences, Gif-sur-Yvette\n   - **Ville** : Gif-sur-Yvette\n   - **Description** : Conférence sur l’utilisation du synchrotron pour analyser le patrimoine artistique.\n\n2. **Être au souffle | Résonances art-science - NewImages Festival 2026**\n   - **Date** : 7 avril 2026, 7h00–16h00\n   - **Lieu** : Cité des sciences et de l’industrie, 30 avenue Corentin Cariou, Paris\n   - **Ville** : Paris\n   - **Description** : Événement art-science dans le cadre du NewImages Festival."
+  },
+  {
+    "id": 5,
+    "question": "Je cherche une conférence sur le patrimoine ou la conservation",
+    "expected_answer": "Le système doit retrouver une conférence liée au patrimoine, à la conservation ou à l’étude d’œuvres.",
+    "generated_answer": "Voici les conférences pertinentes sur le patrimoine ou la conservation :\n\n1. **\"Quand la science éclaire l’art : le rôle du synchrotron dans l’étude du patrimoine\"**\n   - **Date** : 16 avril 2026, 10h30–11h00\n   - **Lieu** : Auditorium, Bâtiment Lumen, 8 avenue des Sciences, Gif-sur-Yvette\n   - **Intervenante** : Julie Gordon (musée du quai Branly – Jacques Chirac)\n\n2. **\"Faire, défaire, refaire : les politiques du patrimoine\"**\n   - **Date** : 20 mai 2026, 7h00–16h00\n   - **Lieu** : Centre Malher, 9 rue Malher, Paris 4e\n   - **Thèmes** : Réparation des matérialités, symboles et droits du patrimoine"
+  },
+  {
+    "id": 6,
+    "question": "Je voudrais assister à un événement quantique ou de recherche scientifique",
+    "expected_answer": "Le système doit proposer un événement lié à l’optique quantique ou à la recherche scientifique.",
+    "generated_answer": "Voici les événements correspondant à votre demande :\n\n1. **« Aucune certitude ne survit »**\n   - **Date** : 5 mai 2026, 15h-16h\n   - **Lieu** : Scène de Recherche ENS Paris-Saclay\n   - **Ville** : Gif-sur-Yvette\n   - **Type** : Pièce de théâtre documentaire sur la mécanique quantique.\n\n2. **« Du photon unique aux variables continues : 40 ans d’optique quantique »**\n   - **Date** : 4 juin 2026, 6h-15h30\n   - **Lieu** : Institut d’Optique – IOGS\n   - **Ville** : Palaiseau\n   - **Type** : Journée scientifique sur l’optique quantique."
+  },
+  {
+    "id": 7,
+    "question": "Je cherche une sortie culturelle à Gif-sur-Yvette",
+    "expected_answer": "Le système doit proposer un événement cohérent situé à Gif-sur-Yvette si disponible dans les documents.",
+    "generated_answer": "Voici une sélection d'événements culturels à Gif-sur-Yvette :\n\n1. **Étoile Noire - rencontres de jeu de go**\n   - **Date** : 17 septembre 2025, 15h45 - 17h45\n   - **Lieu** : Lumen\n   - **Adresse** : 8 Av. des Sciences, 91190 Gif-sur-Yvette\n   - **Type** : Jeu de stratégie asiatique\n\n2. **Finale régionale Ile-de-France du concours MT180s**\n   - **Date** : 16 avril 2026, 16h30 - 19h00\n   - **Lieu** : La Terasse\n   - **Adresse** : 1 avenue de la terrasse, 91190 Gif-sur-Yvette\n   - **Type** : Concours de vulgarisation scientifique\n\n3. **Elixir du Plateau de Saclay** (art-science)\n   - **Date** : 15 avril 2026, 14h30 - 16h00\n   - **Lieu** : Ferme du Moulon\n   - **Adresse** : Chemin du Moulon, Gif-sur-Yvette\n   - **Type** : Projet artistique et scientifique"
+  },
+  {
+    "id": 8,
+    "question": "Je veux voir un événement organisé à Palaiseau",
+    "expected_answer": "Le système doit recommander un événement situé à Palaiseau si l’information est présente dans la base.",
+    "generated_answer": "**Événement à Palaiseau :**\n\n- **Titre :** Rendez-vous innovation agri-agro & bioéconomie\n- **Date :** 30 juin 2026 (11h30 - 17h30)\n- **Lieu :** Campus Agro Paris-Saclay\n- **Adresse :** 22 place de l'Agronomie, Palaiseau"
+  },
+  {
+    "id": 9,
+    "question": "Je cherche un concert ou une soirée musicale",
+    "expected_answer": "Le système doit proposer un événement musical ou indiquer clairement s’il ne trouve pas d’information suffisante.",
+    "generated_answer": "**Concert ou soirée musicale disponible :**\n\n- **Grands chœurs d'opéra: les passions de l'homme**\n  - **Date** : 9 juin 2026, 18h45\n  - **Lieu** : Grand amphithéâtre Henri Cartan, Campus d'Orsay\n  - **Ville** : Orsay\n  - **Adresse** : rue des Adèles"
+  },
+  {
+    "id": 10,
+    "question": "Je veux un événement lié au cinéma ou aux arts visuels",
+    "expected_answer": "Le système doit retrouver un événement cohérent lié au cinéma, au matte painting ou aux arts visuels.",
+    "generated_answer": "**Événement lié au cinéma ou aux arts visuels :**\n\n- **Titre :** L'art du Matte Painting\n- **Date :** 26 mars 2026 (11h-13h)\n- **Lieu :** Galerie Cesária Évora\n- **Ville :** Évry-Courcouronnes\n- **Adresse :** 23 boulevard François Mitterand"
+  },
+  {
+    "id": 11,
+    "question": "Je cherche une conférence aujourd’hui",
+    "expected_answer": "Le système doit proposer une conférence si la date est compatible avec le contexte récupéré, sinon signaler l’absence d’information certaine.",
+    "generated_answer": "Aujourd'hui, le **6 juin 2026**, il n'y a pas de conférence prévue dans le contexte fourni.\n\n*(Les événements listés ont lieu le **4 juin 2026** ou le **16 avril 2026**.)*"
+  },
+  {
+    "id": 12,
+    "question": "Je veux une recommandation d’événement culturel avec date et lieu",
+    "expected_answer": "Le système doit répondre de manière structurée avec au minimum un titre, une date, un lieu et une ville.",
+    "generated_answer": "**Recommandation d'événement culturel :**\n\n1. **Anachronique paléolithique ! Portrait #02 Gwen**\n   - **Date** : 16 avril 2026, 17h30 - 19h30\n   - **Lieu** : Scène de Recherche ENS Paris-Saclay, Gif-sur-Yvette\n   - **Type** : Spectacle de théâtre sur la préhistoire\n\n2. **Pourquoi un arbre est une poule ?**\n   - **Date** : 6 juin 2026, 14h00 - 15h00\n   - **Lieu** : Scène de Recherche ENS Paris-Saclay, Gif-sur-Yvette\n   - **Type** : Spectacle mêlant danse et arts plastiques\n\n3. **Festin du mercredi midi : de dIAboli**\n   - **Date** : 20 mai 2026, 10h30 - 11h30\n   - **Lieu** : Scène de Recherche ENS Paris-Saclay, Gif-sur-Yvette\n   - **Type** : Spectacle de danse et théâtre avec intelligence artificielle"
+  }
+]
