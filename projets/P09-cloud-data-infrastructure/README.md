@@ -1,93 +1,43 @@
-# PROJECT_TITLE
+# P09 - Cloud Data Infrastructure
 
 ## Overview
 
-Description courte du projet.
-
----
+Projet de mise en place d’une infrastructure data cloud avec approche orientée scalabilité, sécurité et maîtrise des coûts.
 
 ## Objectives
 
-- Objectif 1
-- Objectif 2
-- Objectif 3
-
----
+- Déployer une architecture cloud
+- Configurer des ressources AWS
+- Sécuriser les accès et services
+- Documenter les choix d’infrastructure
 
 ## Technical Stack
 
-- Python
-- SQL
-- Docker
-- FastAPI
 - AWS
-- MongoDB
-- PostgreSQL
-- Kestra
-- Pandas
-
-(Adapter selon le projet)
-
----
-
-## Architecture
-
-Description de l’architecture et des composants.
-
----
-
-## Key Features
-
-- Fonctionnalité 1
-- Fonctionnalité 2
-- Fonctionnalité 3
-
----
-
-## Project Structure
-
-```text
-project/
-├── docs/
-├── notebooks/
-├── scripts/
-├── tests/
-└── README.md
-```
-
----
+- EC2
+- IAM
+- Docker
+- Linux
+- Cloud Architecture
 
 ## Deliverables
 
-- Technical report
-- Presentation support
-- Architecture diagrams
-- Tests
-- Documentation
-
----
+- Infrastructure cloud déployée
+- Documentation technique
+- Configuration sécurité
+- Schémas d’architecture
 
 ## Skills Demonstrated
 
-- Data Engineering
-- Cloud Infrastructure
-- ETL
-- Data Modeling
-- API Development
-- Docker
-- Monitoring
-- NLP / RAG
-- Orchestration
-
-(Adapter selon le projet)
-
----
+- Cloud deployment
+- Infrastructure management
+- AWS services configuration
+- Security configuration
+- Cost-aware architecture
 
 ## Results
 
-Résumé des résultats du projet.
-
----
+Le projet démontre la capacité à concevoir et déployer une infrastructure data cloud fonctionnelle et documentée.
 
 ## Author
 

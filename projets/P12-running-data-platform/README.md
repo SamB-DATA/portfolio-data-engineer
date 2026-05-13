@@ -1,93 +1,42 @@
-# PROJECT_TITLE
+# P12 - Running Data Platform
 
 ## Overview
 
-Description courte du projet.
-
----
+Projet de supervision et pilotage d’une plateforme data avec visualisation des indicateurs et suivi opérationnel.
 
 ## Objectives
 
-- Objectif 1
-- Objectif 2
-- Objectif 3
-
----
+- Construire des tableaux de bord analytiques
+- Superviser les performances d’une plateforme
+- Mettre en valeur les KPI métier
+- Produire des rapports décisionnels
 
 ## Technical Stack
 
-- Python
-- SQL
-- Docker
-- FastAPI
-- AWS
-- MongoDB
-- PostgreSQL
-- Kestra
-- Pandas
-
-(Adapter selon le projet)
-
----
-
-## Architecture
-
-Description de l’architecture et des composants.
-
----
-
-## Key Features
-
-- Fonctionnalité 1
-- Fonctionnalité 2
-- Fonctionnalité 3
-
----
-
-## Project Structure
-
-```text
-project/
-├── docs/
-├── notebooks/
-├── scripts/
-├── tests/
-└── README.md
-```
-
----
+- Tableau
+- Data Visualization
+- KPI Monitoring
+- Dashboarding
+- Analytics
 
 ## Deliverables
 
-- Technical report
-- Presentation support
-- Architecture diagrams
-- Tests
-- Documentation
-
----
+- Dashboard analytique
+- Support de présentation
+- Documentation projet
+- Liens GitHub et Tableau
 
 ## Skills Demonstrated
 
-- Data Engineering
-- Cloud Infrastructure
-- ETL
-- Data Modeling
-- API Development
-- Docker
-- Monitoring
-- NLP / RAG
-- Orchestration
-
-(Adapter selon le projet)
-
----
+- Data visualization
+- KPI tracking
+- Dashboard design
+- Business analytics
+- Reporting
 
 ## Results
 
-Résumé des résultats du projet.
-
----
+Le projet démontre la capacité à transformer des données opérationnelles en indicateurs décisionnels exploitables.
 
 ## Author
 

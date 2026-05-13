@@ -1,93 +1,42 @@
-# PROJECT_TITLE
+# P07 - NoSQL MongoDB Analysis
 
 ## Overview
 
-Description courte du projet.
-
----
+Projet d’analyse de données utilisant MongoDB afin d’exploiter des structures NoSQL adaptées à des données semi-structurées.
 
 ## Objectives
 
-- Objectif 1
-- Objectif 2
-- Objectif 3
-
----
+- Manipuler des collections MongoDB
+- Réaliser des requêtes analytiques
+- Structurer des documents NoSQL
+- Comparer les approches SQL et NoSQL
 
 ## Technical Stack
 
-- Python
-- SQL
-- Docker
-- FastAPI
-- AWS
 - MongoDB
-- PostgreSQL
-- Kestra
-- Pandas
-
-(Adapter selon le projet)
-
----
-
-## Architecture
-
-Description de l’architecture et des composants.
-
----
-
-## Key Features
-
-- Fonctionnalité 1
-- Fonctionnalité 2
-- Fonctionnalité 3
-
----
-
-## Project Structure
-
-```text
-project/
-├── docs/
-├── notebooks/
-├── scripts/
-├── tests/
-└── README.md
-```
-
----
+- Python
+- NoSQL
+- Aggregation Pipeline
+- Jupyter Notebook
 
 ## Deliverables
 
-- Technical report
-- Presentation support
-- Architecture diagrams
-- Tests
-- Documentation
-
----
+- Scripts MongoDB
+- Analyses exploratoires
+- Documentation technique
+- Résultats de requêtes analytiques
 
 ## Skills Demonstrated
 
-- Data Engineering
-- Cloud Infrastructure
-- ETL
-- Data Modeling
-- API Development
-- Docker
-- Monitoring
-- NLP / RAG
-- Orchestration
-
-(Adapter selon le projet)
-
----
+- NoSQL querying
+- Aggregation pipelines
+- Document database modeling
+- Analytical querying
+- Technical reporting
 
 ## Results
 
-Résumé des résultats du projet.
-
----
+Le projet démontre la capacité à exploiter MongoDB pour des besoins analytiques et des structures de données flexibles.
 
 ## Author
 

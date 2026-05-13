@@ -1,93 +1,44 @@
-# PROJECT_TITLE
+# P11 - RAG System with Mistral AI
 
 ## Overview
 
-Description courte du projet.
-
----
+Développement d’un système RAG (Retrieval-Augmented Generation) utilisant Mistral AI et une base vectorielle pour améliorer la recherche sémantique.
 
 ## Objectives
 
-- Objectif 1
-- Objectif 2
-- Objectif 3
-
----
+- Construire un pipeline RAG complet
+- Générer des embeddings de documents
+- Indexer les données dans une base vectorielle
+- Interroger un modèle LLM avec contexte enrichi
 
 ## Technical Stack
 
 - Python
-- SQL
-- Docker
+- Mistral AI
+- FAISS
 - FastAPI
-- AWS
-- MongoDB
-- PostgreSQL
-- Kestra
-- Pandas
-
-(Adapter selon le projet)
-
----
-
-## Architecture
-
-Description de l’architecture et des composants.
-
----
-
-## Key Features
-
-- Fonctionnalité 1
-- Fonctionnalité 2
-- Fonctionnalité 3
-
----
-
-## Project Structure
-
-```text
-project/
-├── docs/
-├── notebooks/
-├── scripts/
-├── tests/
-└── README.md
-```
-
----
+- NLP
+- Vector Database
 
 ## Deliverables
 
-- Technical report
-- Presentation support
-- Architecture diagrams
-- Tests
-- Documentation
-
----
+- Scripts ingestion et preprocessing
+- Pipeline RAG
+- Tests de qualité
+- Documentation technique
+- Jeux de tests QA
 
 ## Skills Demonstrated
 
-- Data Engineering
-- Cloud Infrastructure
-- ETL
-- Data Modeling
-- API Development
-- Docker
-- Monitoring
-- NLP / RAG
-- Orchestration
-
-(Adapter selon le projet)
-
----
+- Retrieval-Augmented Generation
+- Vector search
+- NLP pipelines
+- Embedding generation
+- LLM integration
 
 ## Results
 
-Résumé des résultats du projet.
-
----
+Le projet démontre la capacité à construire un moteur de recherche conversationnel enrichi par contexte documentaire.
 
 ## Author
 

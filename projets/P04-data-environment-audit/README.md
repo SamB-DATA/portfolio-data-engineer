@@ -1,93 +1,42 @@
-# PROJECT_TITLE
+# P04 - Data Environment Audit
 
 ## Overview
 
-Description courte du projet.
-
----
+Audit d’un environnement de données afin d’évaluer sa structure, sa qualité et ses axes d’amélioration.
 
 ## Objectives
 
-- Objectif 1
-- Objectif 2
-- Objectif 3
-
----
+- Analyser un environnement de données existant
+- Identifier les limites de qualité et d’organisation
+- Formaliser un dictionnaire de données
+- Proposer une structure cible plus robuste
 
 ## Technical Stack
 
-- Python
-- SQL
-- Docker
-- FastAPI
-- AWS
-- MongoDB
-- PostgreSQL
-- Kestra
-- Pandas
-
-(Adapter selon le projet)
-
----
-
-## Architecture
-
-Description de l’architecture et des composants.
-
----
-
-## Key Features
-
-- Fonctionnalité 1
-- Fonctionnalité 2
-- Fonctionnalité 3
-
----
-
-## Project Structure
-
-```text
-project/
-├── docs/
-├── notebooks/
-├── scripts/
-├── tests/
-└── README.md
-```
-
----
+- Data Audit
+- Excel
+- Data Dictionary
+- Data Modeling
+- Star Schema
 
 ## Deliverables
 
-- Technical report
-- Presentation support
-- Architecture diagrams
-- Tests
-- Documentation
-
----
+- Rapport d’audit
+- Support de présentation
+- Dictionnaire de données
+- Schéma relationnel en étoile
 
 ## Skills Demonstrated
 
-- Data Engineering
-- Cloud Infrastructure
-- ETL
-- Data Modeling
-- API Development
-- Docker
-- Monitoring
-- NLP / RAG
-- Orchestration
-
-(Adapter selon le projet)
-
----
+- Data quality assessment
+- Data governance basics
+- Dimensional modeling
+- Audit reporting
+- Business communication
 
 ## Results
 
-Résumé des résultats du projet.
-
----
+Le projet démontre la capacité à diagnostiquer un environnement data et à proposer une organisation plus fiable pour l’exploitation analytique.
 
 ## Author
 

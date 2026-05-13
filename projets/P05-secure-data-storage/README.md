@@ -1,93 +1,40 @@
-# PROJECT_TITLE
+# P05 - Secure Data Storage
 
 ## Overview
 
-Description courte du projet.
-
----
+Projet de migration et sécurisation de données avec MongoDB, orienté stockage structuré et accès maîtrisé.
 
 ## Objectives
 
-- Objectif 1
-- Objectif 2
-- Objectif 3
-
----
+- Concevoir une solution de stockage NoSQL
+- Migrer des données vers MongoDB
+- Documenter l’architecture de stockage
+- Prendre en compte les enjeux de sécurité et d’accès
 
 ## Technical Stack
 
-- Python
-- SQL
-- Docker
-- FastAPI
-- AWS
 - MongoDB
-- PostgreSQL
-- Kestra
-- Pandas
-
-(Adapter selon le projet)
-
----
-
-## Architecture
-
-Description de l’architecture et des composants.
-
----
-
-## Key Features
-
-- Fonctionnalité 1
-- Fonctionnalité 2
-- Fonctionnalité 3
-
----
-
-## Project Structure
-
-```text
-project/
-├── docs/
-├── notebooks/
-├── scripts/
-├── tests/
-└── README.md
-```
-
----
+- NoSQL
+- Data Migration
+- Database Security
+- GitHub
 
 ## Deliverables
 
-- Technical report
-- Presentation support
-- Architecture diagrams
-- Tests
-- Documentation
-
----
+- Rapport de migration MongoDB
+- Document contenant le lien GitHub du projet
 
 ## Skills Demonstrated
 
-- Data Engineering
-- Cloud Infrastructure
-- ETL
-- Data Modeling
-- API Development
-- Docker
-- Monitoring
-- NLP / RAG
-- Orchestration
-
-(Adapter selon le projet)
-
----
+- NoSQL database design
+- Data migration
+- Secure storage principles
+- MongoDB collections modeling
+- Technical documentation
 
 ## Results
 
-Résumé des résultats du projet.
-
----
+Le projet démontre la capacité à structurer un stockage NoSQL et à documenter une migration de données exploitable.
 
 ## Author
 

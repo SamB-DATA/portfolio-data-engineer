@@ -1,93 +1,43 @@
-# PROJECT_TITLE
+# P10 - Kestra Data Pipeline
 
 ## Overview
 
-Description courte du projet.
-
----
+Projet d’orchestration de pipelines de données avec Kestra afin d’automatiser des traitements ETL et la génération de rapports.
 
 ## Objectives
 
-- Objectif 1
-- Objectif 2
-- Objectif 3
-
----
+- Concevoir des workflows automatisés
+- Orchestrer des tâches de transformation de données
+- Générer des exports et rapports analytiques
+- Superviser l’exécution des pipelines
 
 ## Technical Stack
 
-- Python
-- SQL
-- Docker
-- FastAPI
-- AWS
-- MongoDB
-- PostgreSQL
 - Kestra
-- Pandas
-
-(Adapter selon le projet)
-
----
-
-## Architecture
-
-Description de l’architecture et des composants.
-
----
-
-## Key Features
-
-- Fonctionnalité 1
-- Fonctionnalité 2
-- Fonctionnalité 3
-
----
-
-## Project Structure
-
-```text
-project/
-├── docs/
-├── notebooks/
-├── scripts/
-├── tests/
-└── README.md
-```
-
----
+- YAML
+- Python
+- ETL
+- Data Pipelines
+- Docker
 
 ## Deliverables
 
-- Technical report
-- Presentation support
-- Architecture diagrams
-- Tests
-- Documentation
-
----
+- Workflows Kestra
+- Exports CSV et XLSX
+- Documentation pipeline
+- Captures d’exécution
 
 ## Skills Demonstrated
 
-- Data Engineering
-- Cloud Infrastructure
-- ETL
-- Data Modeling
-- API Development
-- Docker
-- Monitoring
-- NLP / RAG
-- Orchestration
-
-(Adapter selon le projet)
-
----
+- Workflow orchestration
+- ETL automation
+- Pipeline monitoring
+- YAML configuration
+- Data export automation
 
 ## Results
 
-Résumé des résultats du projet.
-
----
+Le projet démontre la capacité à industrialiser des traitements de données avec une logique d’orchestration moderne.
 
 ## Author
 

@@ -1,93 +1,43 @@
-# PROJECT_TITLE
+# P02 - Education Data Analysis
 
 ## Overview
 
-Description courte du projet.
-
----
+Analyse exploratoire de données éducatives afin d’identifier des indicateurs utiles à la compréhension des systèmes d’enseignement.
 
 ## Objectives
 
-- Objectif 1
-- Objectif 2
-- Objectif 3
-
----
+- Nettoyer et structurer un jeu de données éducatif
+- Réaliser une analyse exploratoire avec Python
+- Identifier des tendances et indicateurs clés
+- Produire un notebook reproductible
 
 ## Technical Stack
 
 - Python
-- SQL
-- Docker
-- FastAPI
-- AWS
-- MongoDB
-- PostgreSQL
-- Kestra
 - Pandas
-
-(Adapter selon le projet)
-
----
-
-## Architecture
-
-Description de l’architecture et des composants.
-
----
-
-## Key Features
-
-- Fonctionnalité 1
-- Fonctionnalité 2
-- Fonctionnalité 3
-
----
-
-## Project Structure
-
-```text
-project/
-├── docs/
-├── notebooks/
-├── scripts/
-├── tests/
-└── README.md
-```
-
----
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
 ## Deliverables
 
-- Technical report
-- Presentation support
-- Architecture diagrams
-- Tests
-- Documentation
-
----
+- Notebook d’analyse
+- Version PDF du notebook
+- Script Python
+- Fichiers de configuration projet
 
 ## Skills Demonstrated
 
-- Data Engineering
-- Cloud Infrastructure
-- ETL
-- Data Modeling
-- API Development
-- Docker
-- Monitoring
-- NLP / RAG
-- Orchestration
-
-(Adapter selon le projet)
-
----
+- Data cleaning
+- Exploratory Data Analysis
+- Data visualization
+- Statistical analysis
+- Notebook documentation
 
 ## Results
 
-Résumé des résultats du projet.
-
----
+Le projet démontre la capacité à transformer des données brutes en analyses structurées et exploitables.
 
 ## Author
 

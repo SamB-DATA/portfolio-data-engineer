@@ -1,93 +1,42 @@
-# PROJECT_TITLE
+# P03 - SQL Database Design
 
 ## Overview
 
-Description courte du projet.
-
----
+Projet de modélisation et interrogation d’une base de données relationnelle dans un contexte immobilier.
 
 ## Objectives
 
-- Objectif 1
-- Objectif 2
-- Objectif 3
-
----
+- Concevoir un modèle relationnel cohérent
+- Créer un dictionnaire de données
+- Produire un schéma de base de données
+- Rédiger et exécuter des requêtes SQL métier
 
 ## Technical Stack
 
-- Python
 - SQL
-- Docker
-- FastAPI
-- AWS
-- MongoDB
-- PostgreSQL
-- Kestra
-- Pandas
-
-(Adapter selon le projet)
-
----
-
-## Architecture
-
-Description de l’architecture et des composants.
-
----
-
-## Key Features
-
-- Fonctionnalité 1
-- Fonctionnalité 2
-- Fonctionnalité 3
-
----
-
-## Project Structure
-
-```text
-project/
-├── docs/
-├── notebooks/
-├── scripts/
-├── tests/
-└── README.md
-```
-
----
+- Data Modeling
+- Relational Database
+- Database Schema
+- Excel
 
 ## Deliverables
 
-- Technical report
-- Presentation support
-- Architecture diagrams
-- Tests
-- Documentation
-
----
+- Dictionnaire de données
+- Support de présentation
+- Schéma relationnel
+- Document de code et résultats SQL
 
 ## Skills Demonstrated
 
-- Data Engineering
-- Cloud Infrastructure
-- ETL
-- Data Modeling
-- API Development
-- Docker
-- Monitoring
-- NLP / RAG
-- Orchestration
-
-(Adapter selon le projet)
-
----
+- SQL querying
+- Relational modeling
+- Data normalization
+- Business-oriented database design
+- Technical documentation
 
 ## Results
 
-Résumé des résultats du projet.
-
----
+Le projet démontre la capacité à concevoir une base relationnelle exploitable et à répondre à des besoins métier par requêtes SQL.
 
 ## Author
 

@@ -1,93 +1,43 @@
-# PROJECT_TITLE
+# P06 - Building Energy Forecast API
 
 ## Overview
 
-Description courte du projet.
-
----
+Projet de développement d’une API de prédiction de consommation énergétique de bâtiments à partir de données historiques.
 
 ## Objectives
 
-- Objectif 1
-- Objectif 2
-- Objectif 3
-
----
+- Préparer et nettoyer les données énergétiques
+- Construire un modèle de prévision
+- Exposer le modèle via une API REST
+- Documenter les endpoints et le pipeline ML
 
 ## Technical Stack
 
 - Python
-- SQL
-- Docker
 - FastAPI
-- AWS
-- MongoDB
-- PostgreSQL
-- Kestra
+- Scikit-learn
 - Pandas
-
-(Adapter selon le projet)
-
----
-
-## Architecture
-
-Description de l’architecture et des composants.
-
----
-
-## Key Features
-
-- Fonctionnalité 1
-- Fonctionnalité 2
-- Fonctionnalité 3
-
----
-
-## Project Structure
-
-```text
-project/
-├── docs/
-├── notebooks/
-├── scripts/
-├── tests/
-└── README.md
-```
-
----
+- Docker
+- Jupyter Notebook
 
 ## Deliverables
 
-- Technical report
-- Presentation support
-- Architecture diagrams
-- Tests
-- Documentation
-
----
+- API REST de prédiction
+- Notebook de modélisation
+- Scripts de préparation de données
+- Documentation technique
 
 ## Skills Demonstrated
 
-- Data Engineering
-- Cloud Infrastructure
-- ETL
-- Data Modeling
-- API Development
-- Docker
-- Monitoring
-- NLP / RAG
-- Orchestration
-
-(Adapter selon le projet)
-
----
+- Machine Learning pipeline
+- API development
+- Data preprocessing
+- Model serving
+- Dockerization
 
 ## Results
 
-Résumé des résultats du projet.
-
----
+Le projet démontre la capacité à transformer un modèle de prédiction en service exploitable via API.
 
 ## Author
 

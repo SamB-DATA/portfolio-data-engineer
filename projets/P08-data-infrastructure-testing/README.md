@@ -1,93 +1,42 @@
-# PROJECT_TITLE
+# P08 - Data Infrastructure Testing
 
 ## Overview
 
-Description courte du projet.
-
----
+Projet orienté validation et tests d’une infrastructure data afin d’assurer la qualité et la stabilité des traitements.
 
 ## Objectives
 
-- Objectif 1
-- Objectif 2
-- Objectif 3
-
----
+- Mettre en place des tests automatisés
+- Vérifier la cohérence des pipelines
+- Contrôler la qualité des données
+- Identifier les anomalies d’exécution
 
 ## Technical Stack
 
 - Python
-- SQL
-- Docker
-- FastAPI
-- AWS
-- MongoDB
-- PostgreSQL
-- Kestra
-- Pandas
-
-(Adapter selon le projet)
-
----
-
-## Architecture
-
-Description de l’architecture et des composants.
-
----
-
-## Key Features
-
-- Fonctionnalité 1
-- Fonctionnalité 2
-- Fonctionnalité 3
-
----
-
-## Project Structure
-
-```text
-project/
-├── docs/
-├── notebooks/
-├── scripts/
-├── tests/
-└── README.md
-```
-
----
+- Pytest
+- Data Validation
+- Logging
+- CI/CD concepts
 
 ## Deliverables
 
-- Technical report
-- Presentation support
-- Architecture diagrams
-- Tests
-- Documentation
-
----
+- Scripts de tests
+- Jeux de données de validation
+- Documentation technique
+- Rapports de contrôle
 
 ## Skills Demonstrated
 
-- Data Engineering
-- Cloud Infrastructure
-- ETL
-- Data Modeling
-- API Development
-- Docker
-- Monitoring
-- NLP / RAG
-- Orchestration
-
-(Adapter selon le projet)
-
----
+- Automated testing
+- Data validation
+- Logging and debugging
+- Pipeline quality assurance
+- Technical documentation
 
 ## Results
 
-Résumé des résultats du projet.
-
----
+Le projet démontre la capacité à sécuriser une infrastructure data via des processus de validation et de tests automatisés.
 
 ## Author
 
