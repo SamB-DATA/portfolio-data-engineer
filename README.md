@@ -2,9 +2,7 @@
 
 ## Overview
 
-Portfolio regroupant plusieurs projets réalisés autour de :
-
-* Data Engineering
+Portfolio regroupant plusieurs projets réalisés autour de* Data Engineering
 * Cloud Infrastructure
 * ETL / Pipelines
 * Data Modeling
@@ -21,20 +19,23 @@ Les projets ont été réalisés dans des contextes académiques et techniques a
 
 # Projects
 
-| Project                            | Domain             | Main Technologies       |
-| ---------------------------------- | ------------------ | ----------------------- |
-| P02 - Education Data Analysis      | Data Analysis      | Python, Pandas, Jupyter |
-| P03 - SQL Database Design          | Data Modeling      | SQL, PostgreSQL         |
-| P04 - Data Environment Audit       | Data Governance    | SQL, BI                 |
-| P05 - Secure Data Storage          | Migration / NoSQL  | MongoDB                 |
-| P06 - Building Energy Forecast API | ML Engineering     | Python, BentoML         |
-| P07 - NoSQL MongoDB Analysis       | NoSQL              | MongoDB                 |
-| P08 - Data Infrastructure Testing  | Monitoring         | Docker, Monitoring      |
-| P09 - Cloud Data Infrastructure    | Cloud Architecture | Docker, Kafka           |
-| P10 - Kestra Data Pipeline         | Orchestration      | Kestra, YAML            |
-| P11 - RAG System Mistral           | GenAI / NLP        | LangChain, Mistral      |
-| P12 - Running Data Platform        | BI / Automation    | Tableau, Cloud          |
-| P13 - RAG Events MVP               | Production API     | FastAPI, Docker, AWS    |
+# Projects
+
+| Project | Domain | Main Technologies |
+|---|---|---|
+| [P02 - Education Data Analysis](projets/P02-education-data-analysis) | Data Analysis | Python, Pandas, Jupyter |
+| [P03 - SQL Database Design](projets/P03-sql-database-design) | Data Modeling | SQL, PostgreSQL |
+| [P04 - Data Environment Audit](projets/P04-data-environment-audit) | Data Governance | SQL, BI |
+| [P05 - Secure Data Storage](projets/P05-secure-data-storage) | Migration / NoSQL | MongoDB |
+| [P06 - Building Energy Forecast API](projets/P06-building-energy-forecast-api) | ML Engineering | Python, BentoML |
+| [P07 - NoSQL MongoDB Analysis](projets/P07-nosql-mongodb-analysis) | NoSQL | MongoDB |
+| [P08 - Data Infrastructure Testing](projets/P08-data-infrastructure-testing) | Monitoring | Docker, Monitoring |
+| [P09 - Cloud Data Infrastructure](projets/P09-cloud-data-infrastructure) | Cloud Architecture | Docker, Kafka |
+| [P10 - Kestra Data Pipeline](projets/P10-kestra-data-pipeline) | Orchestration | Kestra, YAML |
+| [P11 - RAG System Mistral](projets/P11-rag-system-mistral) | GenAI / NLP | LangChain, Mistral |
+| [P12 - Running Data Platform](projets/P12-running-data-platform) | BI / Automation | Tableau, Cloud |
+| [P13 - RAG Events MVP](projets/P13-rag-events-mvp) | Production API | FastAPI, Docker, AWS |
+
 
 ---
 
