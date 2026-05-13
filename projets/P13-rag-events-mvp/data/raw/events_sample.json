@@ -1,0 +1,26 @@
+[
+  {
+    "id": "event_001",
+    "title": "Festival de jazz à Paris",
+    "description": "Un festival de jazz avec plusieurs artistes internationaux dans une ambiance conviviale.",
+    "location": "Paris",
+    "date": "2026-06-15",
+    "source": "sample"
+  },
+  {
+    "id": "event_002",
+    "title": "Exposition d’art contemporain",
+    "description": "Une exposition autour de l’art moderne, des installations numériques et de la création visuelle.",
+    "location": "Lyon",
+    "date": "2026-07-02",
+    "source": "sample"
+  },
+  {
+    "id": "event_003",
+    "title": "Concert classique en plein air",
+    "description": "Un concert de musique classique organisé dans un parc avec un orchestre régional.",
+    "location": "Bordeaux",
+    "date": "2026-08-10",
+    "source": "sample"
+  }
+]
