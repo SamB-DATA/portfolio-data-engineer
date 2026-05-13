@@ -1,5 +1,38 @@
 # RAG Events MVP - Projet 13 Data Engineer
 
+## Contexte du projet
+
+Ce projet a été réalisé dans le cadre du parcours Data Engineer OpenClassrooms.
+
+L’objectif est de concevoir un MVP de système RAG (Retrieval-Augmented Generation) capable de rechercher et générer des réponses à partir d’événements culturels.
+
+Le projet met en œuvre une architecture cloud conteneurisée avec déploiement AWS et intégration d’un modèle LLM Mistral AI.
+
+---
+
+## Objectifs métier
+
+- Centraliser des données d’événements culturels
+- Permettre une recherche intelligente via embeddings vectoriels
+- Générer des réponses contextualisées avec un LLM
+- Déployer une API scalable et documentée
+- Industrialiser le pipeline avec Docker et AWS
+
+---
+
+## Architecture du projet
+
+```text
+FastAPI
+   ↓
+Service RAG
+   ↓
+Embeddings
+   ↓
+FAISS Vector Store
+   ↓
+Mistral AI API# RAG Events MVP - Projet 13 Data Engineer
+
 ## Présentation du projet
 
 Ce projet correspond au MVP d’un système RAG dédié à la recommandation d’événements culturels.
