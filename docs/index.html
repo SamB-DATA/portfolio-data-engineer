@@ -3,109 +3,142 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Samir Belasri - Data Engineer</title>
 
 <style>
 body{
-font-family:Arial,sans-serif;
-margin:0;
-background:#f4f6f8;
-color:#222;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+    color:#222;
 }
 
 header{
-background:#0d1117;
-color:white;
-padding:60px;
-text-align:center;
+    background:#07111f;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
 }
 
-section{
-max-width:1000px;
-margin:auto;
-padding:40px;
+header h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:1.3rem;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:40px 20px;
 }
 
 .card{
-background:white;
-padding:25px;
-border-radius:10px;
-box-shadow:0 2px 8px rgba(0,0,0,.1);
-margin-bottom:25px;
+    background:white;
+    border-radius:12px;
+    padding:30px;
+    margin-bottom:30px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+h2{
+    margin-top:0;
 }
 
 .button{
-display:inline-block;
-padding:12px 20px;
-background:#0969da;
-color:white;
-text-decoration:none;
-border-radius:6px;
+    display:inline-block;
+    background:#0d6efd;
+    color:white;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+.button:hover{
+    background:#084298;
+}
+
+ul{
+    line-height:1.8;
 }
 
 footer{
-text-align:center;
-padding:20px;
-background:#0d1117;
-color:white;
+    text-align:center;
+    padding:30px;
+    background:#07111f;
+    color:white;
+    margin-top:40px;
 }
 </style>
-</head>
 
+</head>
 <body>
 
 <header>
-<h1>Samir Belasri</h1>
-<p>Data Engineer Portfolio</p>
+    <h1>Samir Belasri</h1>
+    <p>Data Engineer Portfolio</p>
 </header>
 
-<section>
+<div class="container">
 
-<div class="card">
-<h2>Présentation</h2>
+    <div class="card">
+        <h2>Présentation</h2>
 
-<p>
-Data Engineer spécialisé en :
-</p>
+        <p>
+            Professionnel issu du management, de la formation et du développement
+            commercial, reconverti dans la Data Engineering avec une spécialisation
+            Cloud, Data Pipelines, Docker, AWS, NLP et systèmes RAG.
+        </p>
 
-<ul>
-<li>Python</li>
-<li>SQL</li>
-<li>Cloud AWS</li>
-<li>Docker</li>
-<li>ETL / ELT</li>
-<li>Data Pipelines</li>
-<li>RAG et IA Générative</li>
-</ul>
+        <ul>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>AWS Cloud</li>
+            <li>Docker</li>
+            <li>ETL / ELT</li>
+            <li>Data Pipelines</li>
+            <li>RAG & IA Générative</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Portfolio GitHub</h2>
+
+        <p>
+            Retrouvez l'ensemble de mes projets Data Engineering réalisés durant
+            mon parcours OpenClassrooms.
+        </p>
+
+        <a class="button"
+           href="https://github.com/SamB-DATA/portfolio-data-engineer"
+           target="_blank">
+           Voir le portfolio GitHub
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>Présentation professionnelle</h2>
+
+        <p>
+            Présentation complète de mon parcours, de mes expériences,
+            de ma reconversion vers la Data Engineering et de mes compétences.
+        </p>
+
+        <a class="button"
+           href="assets/Samir_Belasri_Présentation.pdf"
+           target="_blank">
+           Télécharger la présentation
+        </a>
+    </div>
 
 </div>
-
-<div class="card">
-<h2>Portfolio GitHub</h2>
-
-<a class="button"
-href="https://github.com/SamB-DATA/portfolio-data-engineer"
-target="_blank">
-Voir le portfolio
-</a>
-
-</div>
-
-<div class="card">
-<h2>CV</h2>
-
-<a class="button"
-href="assets/CV_Samir_Belasri.pdf"
-target="_blank">
-Télécharger le CV
-</a>
-
-</div>
-
-</section>
 
 <footer>
-Samir Belasri - Portfolio Data Engineer
+    Samir Belasri - Portfolio Data Engineer
 </footer>
 
 </body>
