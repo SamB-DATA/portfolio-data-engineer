@@ -3,92 +3,304 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Samir Belasri - Data Engineer & Intervenant</title>
+<title>Samir Belasri - Portfolio Data Engineer & Formation</title>
 
 <style>
-body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f6f8;color:#1f2937;}
-header{background:#07111f;color:white;text-align:center;padding:90px 20px;}
-header h1{font-size:3rem;margin:0 0 15px;}
-header p{font-size:1.25rem;margin:8px 0;}
-.container{max-width:1100px;margin:auto;padding:45px 20px;}
-.card{background:white;border-radius:14px;padding:32px;margin-bottom:30px;box-shadow:0 3px 14px rgba(0,0,0,.08);}
-h2{margin-top:0;color:#07111f;}
-ul{line-height:1.8;}
-.button{display:inline-block;background:#0d6efd;color:white;padding:13px 22px;text-decoration:none;border-radius:8px;margin-top:12px;font-weight:bold;}
-.button:hover{background:#084298;}
-footer{text-align:center;padding:30px;background:#07111f;color:white;margin-top:40px;}
-.highlight{font-weight:bold;color:#0d6efd;}
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f6f8;
+    color:#1f2937;
+}
+
+header{
+    background:
+        radial-gradient(circle at 75% 20%, rgba(62,118,166,0.42), transparent 34%),
+        linear-gradient(135deg,#06111f 0%,#0a2238 52%,#113c5c 100%);
+    color:white;
+    padding:95px 12%;
+    text-align:left;
+}
+
+.hero-box{
+    border-left:5px solid rgba(255,255,255,0.5);
+    padding-left:32px;
+    max-width:950px;
+}
+
+.eyebrow{
+    letter-spacing:4px;
+    text-transform:uppercase;
+    color:#b8c7d8;
+    font-size:0.95rem;
+    margin-bottom:22px;
+}
+
+header h1{
+    font-size:4.2rem;
+    margin:0 0 14px;
+    letter-spacing:-1px;
+}
+
+header h2{
+    font-size:1.8rem;
+    font-weight:300;
+    color:#d8e6f2;
+    margin:0 0 28px;
+}
+
+.hero-quote{
+    font-size:1.35rem;
+    font-style:italic;
+    color:#f5f7fb;
+    margin-top:22px;
+}
+
+.container{
+    max-width:1120px;
+    margin:auto;
+    padding:46px 20px;
+}
+
+.card{
+    background:white;
+    border-radius:16px;
+    padding:34px;
+    margin-bottom:30px;
+    box-shadow:0 4px 18px rgba(0,0,0,0.08);
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:24px;
+}
+
+h2{
+    margin-top:0;
+    color:#07111f;
+    font-size:1.8rem;
+}
+
+h3{
+    color:#0a2238;
+    margin-bottom:10px;
+}
+
+p{
+    line-height:1.65;
+    font-size:1.02rem;
+}
+
+ul{
+    line-height:1.85;
+    padding-left:22px;
+}
+
+.badges{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:18px;
+}
+
+.badge{
+    background:#e8f1fb;
+    color:#0a3b5c;
+    padding:8px 12px;
+    border-radius:20px;
+    font-size:0.92rem;
+    font-weight:bold;
+}
+
+.button{
+    display:inline-block;
+    background:#0d6efd;
+    color:white;
+    padding:14px 22px;
+    text-decoration:none;
+    border-radius:9px;
+    margin-top:12px;
+    font-weight:bold;
+}
+
+.button:hover{
+    background:#084298;
+}
+
+.secondary{
+    background:#0a2238;
+}
+
+.secondary:hover{
+    background:#06111f;
+}
+
+.highlight{
+    font-weight:bold;
+    color:#0d6efd;
+}
+
+footer{
+    text-align:center;
+    padding:32px;
+    background:#07111f;
+    color:white;
+    margin-top:42px;
+}
+
+@media(max-width:700px){
+    header{
+        padding:70px 8%;
+    }
+
+    header h1{
+        font-size:3rem;
+    }
+
+    header h2{
+        font-size:1.35rem;
+    }
+}
 </style>
 </head>
 
 <body>
 
 <header>
-<h1>Samir Belasri</h1>
-<p>Portfolio Data Engineer</p>
-<p>Business, Management, Data & Transmission pédagogique</p>
+    <div class="hero-box">
+        <div class="eyebrow">Data Engineering • Business • Formation</div>
+
+        <h1>Samir Belasri</h1>
+
+        <h2>Data Engineer • Intervenant / Formateur • Management & Performance</h2>
+
+        <p class="hero-quote">
+            Allier l’exigence du terrain, la rigueur de la data et la transmission pédagogique.
+        </p>
+    </div>
 </header>
 
 <div class="container">
 
-<div class="card">
-<h2>Positionnement</h2>
-<p>
-Ce portfolio présente mes projets Data Engineering réalisés dans le cadre de ma montée en compétences vers le métier de Data Engineer.
-Mon objectif est de valoriser cette expertise technique pour intervenir auprès d’étudiants et de professionnels sur des sujets liés à la data, au pilotage de la performance, au cloud et à l’intelligence artificielle appliquée.
-</p>
-<p>
-Mon parcours combine une expérience terrain en commerce, management et développement réseau avec une spécialisation récente en Data Engineering.
-Cette double compétence me permet de relier les enjeux métiers, les indicateurs de performance et les solutions techniques.
-</p>
-</div>
+    <div class="card">
+        <h2>Mon positionnement</h2>
 
-<div class="card">
-<h2>Compétences Data Engineering</h2>
-<ul>
-<li>Python, SQL, PostgreSQL, NoSQL</li>
-<li>ETL / ELT, automatisation, pipelines de données</li>
-<li>Docker, APIs FastAPI, documentation Swagger / OpenAPI</li>
-<li>Cloud AWS, déploiement applicatif, monitoring de base</li>
-<li>NLP, RAG, index vectoriel, IA générative</li>
-<li>Data visualisation, reporting, tableaux de bord</li>
-</ul>
-</div>
+        <p>
+            Après plus de 15 années d’expérience dans le développement commercial,
+            le pilotage de centres de profit et la structuration de réseaux,
+            j’ai choisi de compléter cette expertise terrain par une spécialisation
+            en <span class="highlight">Data Engineering</span>.
+        </p>
 
-<div class="card">
-<h2>Portfolio GitHub</h2>
-<p>
-Le portfolio regroupe mes projets Data Engineering : bases de données, API, cloud, pipelines, tests, RAG, Docker et déploiement.
-Il sert de preuve technique concrète de mes compétences.
-</p>
-<a class="button" href="https://github.com/SamB-DATA/portfolio-data-engineer" target="_blank">
-Voir le portfolio GitHub
-</a>
-</div>
+        <p>
+            Mon objectif est de mettre cette double compétence
+            <span class="highlight">Business + Data</span> au service de l’enseignement supérieur,
+            de la formation professionnelle et de l’accompagnement des futurs talents.
+        </p>
 
-<div class="card">
-<h2>Dossier de présentation professionnelle</h2>
-<p>
-Ce dossier présente mon parcours, mon expérience opérationnelle, ma capacité de transmission et mon positionnement d’intervenant/formateur.
-Il met en avant ma double compétence : business terrain + data.
-</p>
-<a class="button" href="assets/Samir_Belasri_Présentation.pdf" target="_blank">
-Consulter le dossier de présentation
-</a>
-</div>
+        <p>
+            Je conçois la formation comme un lien concret entre les réalités opérationnelles,
+            la prise de décision par la donnée, l’automatisation et l’employabilité immédiate.
+        </p>
+    </div>
 
-<div class="card">
-<h2>Objectif professionnel</h2>
-<p>
-Mettre mon expérience terrain et mes compétences Data Engineering au service de formations concrètes, professionnalisantes et directement applicables.
-L’objectif est d’aider les étudiants à comprendre les outils data, mais surtout à les relier à des cas métiers réels : performance, automatisation, pilotage, reporting et prise de décision.
-</p>
-</div>
+    <div class="grid">
+
+        <div class="card">
+            <h2>Expertise terrain</h2>
+            <ul>
+                <li>15+ ans d’expérience opérationnelle et managériale</li>
+                <li>Pilotage multi-sites et développement de réseaux</li>
+                <li>Gestion de centres de profit et performance commerciale</li>
+                <li>Structuration d’organisations et culture du résultat</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Compétences Data</h2>
+            <ul>
+                <li>Python, SQL, PostgreSQL, NoSQL</li>
+                <li>ETL / ELT et automatisation de pipelines</li>
+                <li>Docker, APIs FastAPI, Swagger / OpenAPI</li>
+                <li>AWS Cloud, déploiement et monitoring</li>
+                <li>NLP, RAG, recherche vectorielle, IA générative</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="card">
+        <h2>Portfolio Data Engineer</h2>
+
+        <p>
+            Ce portfolio regroupe mes projets Data Engineering réalisés dans le cadre
+            de mon parcours OpenClassrooms : bases de données, APIs, cloud, pipelines,
+            tests, Docker, monitoring, systèmes RAG et déploiement.
+        </p>
+
+        <p>
+            Il sert de preuve technique concrète de ma capacité à concevoir,
+            documenter et livrer des solutions data structurées.
+        </p>
+
+        <div class="badges">
+            <span class="badge">Python</span>
+            <span class="badge">SQL</span>
+            <span class="badge">Docker</span>
+            <span class="badge">AWS</span>
+            <span class="badge">FastAPI</span>
+            <span class="badge">ETL / ELT</span>
+            <span class="badge">RAG</span>
+            <span class="badge">Data Pipelines</span>
+        </div>
+
+        <br>
+
+        <a class="button" href="https://github.com/SamB-DATA/portfolio-data-engineer" target="_blank">
+            Voir le portfolio GitHub
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>Dossier de présentation professionnelle</h2>
+
+        <p>
+            Ce dossier présente mon parcours, mon expérience opérationnelle,
+            ma capacité de transmission et mon positionnement d’intervenant/formateur.
+            Il met en avant ma double compétence : management terrain, performance métier
+            et data appliquée.
+        </p>
+
+        <a class="button secondary" href="assets/Samir_Belasri_Présentation.pdf" target="_blank">
+            Consulter le dossier de présentation
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>Objectif professionnel</h2>
+
+        <p>
+            Intervenir auprès d’étudiants et de professionnels sur des modules liés
+            à la data, au pilotage de la performance, à l’automatisation,
+            au reporting, au cloud et à l’intelligence artificielle appliquée.
+        </p>
+
+        <p>
+            Mon approche consiste à transformer l’expérience d’entreprise en valeur
+            pédagogique concrète : des cas réels, des outils opérationnels,
+            des indicateurs exploitables et une logique d’employabilité.
+        </p>
+    </div>
 
 </div>
 
 <footer>
-Samir Belasri - Data Engineer Portfolio - Business, Data & Formation
+    Samir Belasri - Portfolio Data Engineer - Business, Data & Formation
 </footer>
 
 </body>
